@@ -1,0 +1,19 @@
+nav {
+  width: 100%;
+  max-height: 60px;
+
+  .main-nav {
+    float: right;
+    padding: 15px;
+    
+    a {
+      text-decoration: none;
+      color: $cr-gray-dark;
+      padding-left: 10px;
+    }
+  }
+  .logo {
+    max-width: 150px;
+    left: 0;
+  }
+}
