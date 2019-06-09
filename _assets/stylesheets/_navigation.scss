@@ -1,6 +1,7 @@
 nav {
-  width: 100%;
+  border-bottom: 50px;
   max-height: 60px;
+  padding: 30px;
 
   .main-nav {
     float: right;
@@ -11,9 +12,10 @@ nav {
       color: $cr-gray-dark;
       padding-left: 10px;
     }
+
   }
-  .logo {
-    max-width: 150px;
-    left: 0;
+  .logo img {
+    width: 150px;
+
   }
 }

@@ -1,0 +1,49 @@
+.jumbotron {
+  align-items: center;
+  background-image: url(./images/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .jt-content {
+    color: #ffffff;
+    vertical-align: middle;
+    bottom: 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 100;
+      line-height: 3rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+
+    }
+
+    p {
+      background-color: #000;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 10px;
+      text-align: center;
+      padding: 5px 15px;
+    }
+
+    button {
+      background-color: transparent;
+      border: 1px solid #FFFFFF;
+      border-radius: 4px;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 30px;
+    }
+  }
+}
