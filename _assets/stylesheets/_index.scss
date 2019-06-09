@@ -24,7 +24,7 @@
       line-height: 3rem;
       margin-bottom: 15px;
       text-transform: uppercase;
-
+      text-align: center;
     }
 
     p {
@@ -45,5 +45,17 @@
       cursor: pointer;
       padding: 10px 30px;
     }
+  }
+}
+.album-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  bottom: 100px;
+  position: relative;
+
+  .album-box img {
+    max-width: 360px;
+    max-height: 360px;
   }
 }
