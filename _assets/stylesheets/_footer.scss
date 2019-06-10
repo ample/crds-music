@@ -7,7 +7,6 @@ footer {
     justify-content: space-between;
     padding: 2rem;
 
-
     .link-container {
       display: flex;
       flex-direction: row;
@@ -30,8 +29,8 @@ footer {
     }
 
     .social-media-container img{
-      padding-left: 1rem;
       max-width: 50px;
+      padding-left: 1rem;
     }
     @media only screen and (max-width: 750px)  {
       flex-direction: column;
@@ -39,9 +38,8 @@ footer {
     }
   }
   .copyright {
-    padding: 10px;
     margin: 0 auto;
+    padding: 10px;
     text-align: right;
-  
   }
 }
