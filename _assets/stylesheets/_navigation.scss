@@ -1,21 +1,32 @@
 nav {
   border-bottom: 50px;
   max-height: 60px;
-  padding: 30px;
+  padding: 20px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 
   .main-nav {
-    float: right;
-    padding: 15px;
+    display: block; 
     
     a {
       color: $cr-gray-dark;
       text-decoration: none;
-      padding-left: 10px;
+      padding-right: 15px;
+    }
+
+    button {
+      background-color: $cr-gray-lighter;
+      padding: 15px 25px;
+      border-radius: 4px;
+      margin: 0px 10px;
     }
 
   }
   .logo img {
-    width: 150px;
+    max-width: 250px;
 
   }
 }
