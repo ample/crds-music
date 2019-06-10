@@ -20,13 +20,14 @@ nav {
     button {
       background-color: $cr-gray-lighter;
       padding: 15px 25px;
+      border: none;
       border-radius: 4px;
       margin: 0px 10px;
     }
 
   }
+
   .logo img {
     max-width: 250px;
-
   }
 }
